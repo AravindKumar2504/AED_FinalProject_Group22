@@ -53,9 +53,7 @@ public class UserAccount {
         this.employee = employee;
     }
 
-    public void setRole(Role role) {
-        this.role = role;
-    }
+
 
     public Employee getEmployee() {
         return employee;
