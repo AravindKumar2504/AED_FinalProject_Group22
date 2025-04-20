@@ -5,7 +5,6 @@
 package Business.UserAccount;
 
 import Business.Employee.Employee;
-import Business.Role.Role;
 import java.util.ArrayList;
 
 /**
@@ -32,17 +31,7 @@ public class UserAccountDirectory {
         return null;
     }
     
-    public UserAccount createUserAccount(String username, String password, Employee employee, Role role, String roleName){
-        UserAccount userAccount = new UserAccount();
-        userAccount.setUsername(username);
-        userAccount.setPassword(password);
-        userAccount.setEmployee(employee);
-        userAccount.setRole(role);        
-        userAccount.setRoleName(roleName);
-        userAccountList.add(userAccount);
-        return userAccount;
-    }
-    
+        
     public Boolean deleteUser(String name) {
         for(int i = 0; i < userAccountList.size(); i ++) {
             if(userAccountList.get(i).getEmployee().getName().equals(name)) {
