@@ -2,7 +2,10 @@
 
 Nucleus is a multi-service marketplace desktop application that connects customers with service providers across five verticals: grocery, hotel, hospital care, legal services, and home (maid) services. One login, one platform, role-specific dashboards for every participant.
 
-Built as the final project for INFO 5100 (Application Engineering and Development) at Northeastern University. Designed and implemented end to end by Aravind Sundaravadivelu.
+Built as the final project for INFO 5100 (Application Engineering and Development) at Northeastern University.
+
+> ### Solo project
+> I designed and implemented the entire application, end to end: the domain model, all five service verticals, the nine role-based work areas and their Swing UIs, the work-queue request routing, DB4O persistence, and JavaMail email notifications.
 
 ## Features
 
